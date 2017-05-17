@@ -27,8 +27,7 @@ public class RegisterController implements ApplicationContextAware{
 	
 	private UserDTO dtoRef;
 	
-	{
-    	dtoRef = new UserDTO();
+	{   dtoRef = new UserDTO();
     	dtoRef.setEmail("abc@xyz.com");
 	}
 	
